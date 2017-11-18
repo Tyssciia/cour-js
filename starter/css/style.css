@@ -1,0 +1,18 @@
+body{
+	width: 200vh;
+}
+button{
+	width: 70px;
+	height: 50px;
+	background-color : pink;	
+}
+
+
+
+.element{
+	width: 15%;
+	height: 15%;
+	border: 2px solid red;
+	padding: 30px;
+	margin-top: 10px;
+}

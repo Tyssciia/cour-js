@@ -1,0 +1,15 @@
+.btn{
+	width: 70%;
+	height: 60px;
+	background-color: pink ;
+	border-radius: 50%;
+	border:dashed solid 4px black;
+
+}
+
+i{
+	padding:20px;
+	color : pink;
+	background-color:white;
+	cursor:pointer;
+}

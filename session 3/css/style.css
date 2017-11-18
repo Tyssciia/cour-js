@@ -1,0 +1,36 @@
+body{
+	background-color: black;
+}
+
+h1{
+	color: white;
+}
+.bloc1{
+	display:flex;
+	margin-bottom: 10px;
+
+}
+
+.bloc2{
+   display:flex;
+   margin-top: 10px;
+}
+
+#carré{
+  
+	width: 30px; 
+	height:30px;
+	padding:40px;
+	border:solid 2px yellow;
+	margin-left: 5px;
+}
+
+#carré2{
+
+	width: 30px; 
+	height:30px;
+	padding:40px;
+	border:solid 2px yellow;
+	margin-left: 5px;
+}
+

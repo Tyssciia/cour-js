@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Inverser les couleurs</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script>
+
+// exo 1 inverser les couleurs 
+
+		var app = (function() {
+
+			"use strict";
+
+// 			function invertColor(elem) {
+// 				console.log(elem)
+// 				var couleur1 = document.getElementById(this.id === "pink" ? "crimson" : "pink");
+// 				var couleur2 = couleur1.style.backgroundColor;
+// 				couleur1.style.backgroundColor = this.style.backgroundColor;
+// 				this.style.backgroundColor = couleur2;     
+
+// 			}
+			
+
+// // exo deux inverser les lettres
+			function swapLetters(str){
+               
+               
+               var str = str.replace("//g").split('').reverse().join('');
+
+               console.log(str);
+
+              } 
+
+            
+			swapLetters("moi");
+
+             
+ //exo 3 Lignes et colonnes
+
+            function drawColumn(col){
+
+            	
+            	var x = "";
+
+            	for ( var i = 0; i<= col ; i++)
+              {
+              	x+= ("|") +i;  
+              	
+              } console.log(x);
+            
+
+            } drawColumn(10);
+
+
+            function drawRow(row,col){
+                
+                 var y = "";
+
+            	for (var i = 0; i<= row ; i++){
+
+            		y+= ("|") +i;
+
+            	} console.log(y);
+
+              	
+              } drawRow(7,10);
+
+
+
+            function isPalindrom(str){ 
+
+
+            	 if (swapLetters(str) == str){
+            	 	console.log(true);
+            	 }else{ 
+                    console.log(false);     
+            	 }
+
+
+
+           }
+
+           isPalindrom("str");
+
+    
+
+
+			
+		}())
+			
+
+		
+	
+
+		</script>
+</head>
+
+<body>
+
+
+
+<h1>Inverser les couleurs & inverser les lettres </h1>
+       
+       <div class="bloc1">
+	       	<div class="un" id="carré" onclick="app.invertColor(this)" style="background-color:pink;">a</div>
+	       	<div class="deux" id="carré2" onclick="app.invertColor(this)" style="background-color:crimson;">b</div>
+       </div>
+
+
+<!-- (function(){
+	"user strict";
+	var n = 3, products = [];
+
+      function Product(n,p) {
+	  this.name = n;
+	  this.price = p;
+	  }
+
+	  do {
+	    let name = prompt("saisir un nom");
+	    let price = prompt ("saisir un prix")
+
+
+	  }
+      }
+}) -->
+ 
+</body>
+</html>

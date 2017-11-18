@@ -1,0 +1,42 @@
+body{
+	box-sizing: border-box;
+	padding: 0;
+}
+
+#header {
+	position: fixed;
+	background: white;
+	width: 100%
+	z-index:10;
+	height: 50px;
+}
+
+.pane{
+	position:relative;
+	top: 50px;
+	height:100vh;
+}
+
+.pane:nth-of-type(1){
+	background: pink;
+
+}
+.pane:nth-of-type(2){
+	background: yellow;
+
+}
+.pane:nth-of-type(3){
+	background: orange;
+
+}
+
+.list{
+	display:flex;
+}
+
+.list .item {
+	cursor:pointer;
+	list-style:none;
+	width: 120px;
+	padding:5px 20px;
+}

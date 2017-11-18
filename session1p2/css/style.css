@@ -1,0 +1,10 @@
+.mesboites{
+	display:flex;
+}
+
+.mesboites div{
+	border:3px solid;
+	width: 60px;
+	height:60px;
+	margin:3px;
+}

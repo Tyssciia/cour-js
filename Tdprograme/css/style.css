@@ -1,0 +1,99 @@
+ body{
+ 	background-color: black;
+	width: 90%;
+
+}
+
+.lebloc{
+	margin-top: 10%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+h1{
+ 
+ color:pink;
+ font-family: 'Kaushan Script', cursive;
+ font-size: 60px;
+  
+}
+
+button{
+	text-align: center;
+	width: 20%;
+	padding:50px;
+	background: linear-gradient(crimson,purple,white);
+	opacity:0.8;
+	border-radius: 20%;
+	margin-left: 30px;
+	
+}
+
+.grandeboite{
+
+
+display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 6%;
+	margin-left: 30px;
+
+	
+}
+
+.boite{
+
+	border-style: dotted;
+	border: orange solid 2px;
+	width: 100px;
+	padding : 40px;
+	background: white;
+	display: inline-block;
+
+}
+
+
+
+.boite2{
+
+	border-style: dotted;
+	border: orange solid 2px;
+	width: 100px;
+	padding : 40px;
+	background: white;
+	display: inline-block;
+
+}
+
+
+.boite3{
+
+	border-style: dotted;
+	border: orange solid 2px;
+	width: 100px;
+	padding : 40px;
+	background: white;
+	display: inline-block;
+
+}
+
+.boite4{
+
+	border-style: dotted;
+	border: orange solid 2px;
+	width: 100px;
+	padding : 40px;
+	background: white;
+	display: inline-block;
+}
+
+img{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+	width: 200px;
+	height: 200px;
+}
